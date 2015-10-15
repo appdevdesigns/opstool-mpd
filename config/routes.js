@@ -23,7 +23,7 @@ module.exports = {
   'get /*(^.*)' : 'opstool-mpd/PluginController.profile'
 
   */
-
+    'get /opstool-mpd/mpd' : 'opstool-mpd/MPDController.find'
 
 };
 
